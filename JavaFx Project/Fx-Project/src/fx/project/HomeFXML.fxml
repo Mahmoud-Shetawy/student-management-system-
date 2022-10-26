@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="484.0" style="-fx-background-color: #EAEAEA;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.project.HomeFXMLController">
+   <children>
+      <Button layoutX="208.0" layoutY="127.0" mnemonicParsing="false" onAction="#handleButtonAction6" prefHeight="33.0" prefWidth="159.0" style="-fx-background-color: #519259;" text="Score" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="203.0" layoutY="58.0" mnemonicParsing="false" onAction="#handleButtonAction3" prefHeight="39.0" prefWidth="159.0" style="-fx-background-color: #519259;" text="Students" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="208.0" layoutY="250.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="33.0" prefWidth="159.0" style="-fx-background-color: #519259;" text="GPA" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="208.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleButtonAction2" prefHeight="33.0" prefWidth="159.0" style="-fx-background-color: #519259;" text="Subjects" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="208.0" layoutY="313.0" mnemonicParsing="false" onAction="#handleButtonAction4" prefHeight="33.0" prefWidth="159.0" style="-fx-background-color: #519259;" text="Report" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button layoutX="208.0" layoutY="384.0" mnemonicParsing="false" onAction="#handleButtonAction5" prefHeight="33.0" prefWidth="159.0" style="-fx-background-color: #DD4A48;" text="Logout" textFill="#fcfcfc">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fitHeight="54.0" fitWidth="70.0" layoutX="117.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../scpx.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="122.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../gpa_calculator_50px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="122.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Logout_24px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="70.0" layoutX="117.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../student_male_100px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="70.0" layoutX="117.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../study_100px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="63.0" layoutX="122.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../edit_graph_report_80px.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
