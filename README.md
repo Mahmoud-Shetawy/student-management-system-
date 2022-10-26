@@ -1,1 +1,2 @@
 # student-management-system-
+JavaFx-Project “This is a complete desktop application with data base it's features are recording new students , recording new employees , record grades of students , calculate GPA of student , recording the new subjects after calculating GPA and determine what number of subjects that he has to record in current term and there is a report which say what is the largest degree in every student ,who have this degree and in which level
